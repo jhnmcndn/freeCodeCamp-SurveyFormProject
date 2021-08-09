@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Red Hat Text", sans-serif;
+  font-size: 62.5%;
+  background-color: #F5D97E;
+}
+
+.container {
+  max-width: 405px;
+  margin: 4.5rem auto;
+  height: 100%;
+}
+
+#title {
+  font-size: 2.8rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+#description {
+  font-size: 1.6rem;
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+#survey-form {
+  height: 200px;
+  background-color: rgba(254, 242, 242, 0.5);
+  border-radius: 5px;
+}
+
+label {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #0f0000b3;
+}
+/*# sourceMappingURL=main.css.map */
