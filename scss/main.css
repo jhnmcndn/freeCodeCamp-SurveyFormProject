@@ -33,14 +33,41 @@ body {
 }
 
 #survey-form {
-  height: 200px;
+  height: 100%;
   background-color: rgba(254, 242, 242, 0.5);
   border-radius: 5px;
+  padding: 1.8rem 1.8rem 3.5rem;
 }
 
 label {
+  margin-bottom: 0.4rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #0f0000b3;
+}
+
+p {
+  margin-bottom: 0.4rem;
   font-size: 1.6rem;
   font-weight: 500;
   color: #0f0000b3;
+}
+
+.input-appearance {
+  display: block;
+  width: 100%;
+  height: 3rem;
+  padding: 0.9rem 1.3rem;
+  color: #0f0000b3;
+  background-color: #fef1f180;
+  border-radius: 0.5rem;
+  border: none;
+}
+
+.form-sections {
+  margin: 0 auto 1.5rem;
 }
 /*# sourceMappingURL=main.css.map */

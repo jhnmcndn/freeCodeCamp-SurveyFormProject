@@ -15,7 +15,38 @@
         <h1 id="title">freeCodeCamp Survey Form</h1>
         <p id="description">Thank you for taking the time to help us imporove the platform</p>
         <form action="" id="survey-form">
-            <label for="" id="name">Name</label>
+            <div class="form-sections">
+                <label for="name" id="name-label">Name</label>
+                <input type="text" name="name" id="name" class="input-appearance" placeholder="Enter your name">
+            </div>
+            
+            <div class="form-sections">
+                <label for="email" id="email-label">Email</label>
+                <input type="text" name="email" id="email" class="input-appearance" placeholder="Enter your email">
+            </div>
+
+            <div class="form-sections">
+                <label for="number" id="age-label">Age</label>
+                <input type="number" name="age" id="number" class="input-appearance" min="10" max="120" placeholder="Age">
+                </label>
+            </div>
+
+            <div class="form-sections">
+                <p>Which option best describes your current role?</p>
+                <select name="role" id="dropdown" class="input-appearance">
+                    <option disabled="" selected="" value="">Select current role</option>
+                    <option value="student">Student</option>
+                    <option value="job">Full Time Job</option>
+                    <option value="learner">Full Time Learner</option>
+                    <option value="preferNo">Prefer not to say</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+
+            <div class="form-sections">
+                <p>Would you recommend freeCodeCamp to a friend?</p>
+            </div>
+            
         </form>
     </div>
 </body>
