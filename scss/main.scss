@@ -3,7 +3,7 @@
 @import "checkbox";
 
 .container {
-  max-width: 405px;
+  max-width: 415px;
   margin: 4.5rem auto;
   height: 100%;
 }
@@ -38,18 +38,18 @@ label {
 }
 
 p {
-    margin-bottom: 0.4rem;
-    font-size: 1.6rem;
-    font-weight: 500;
-    color: $black-opacity70;
+  margin-bottom: 0.4rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: $black-opacity70;
 }
 
 .input-appearance {
   display: block;
   width: 100%;
-  height: 3rem;
+  height: 4rem;
   padding: 0.9rem 1.3rem;
-  color: $black-opacity70;
+  color: $black-opacity50;
   background-color: $white-opacity50;
   border-radius: 0.5rem;
   border: none;
