@@ -17,16 +17,16 @@
         <form action="" id="survey-form">
             <div class="form-sections">
                 <label for="name" id="name-label">Name</label>
-                <input type="text" name="name" id="name" class="input-appearance" placeholder="Enter your name">
+                <input type="text" name="name" id="name" class="input-appearance" placeholder="Enter your name" required>
             </div>
             
             <div class="form-sections">
                 <label for="email" id="email-label">Email</label>
-                <input type="text" name="email" id="email" class="input-appearance" placeholder="Enter your email">
+                <input type="email" name="email" id="email" class="input-appearance" placeholder="Enter your email" required>
             </div>
 
             <div class="form-sections">
-                <label for="number" id="age-label">Age</label>
+                <label for="number" id="number-label">Age<span>(optional)</span></label>
                 <input type="number" name="age" id="number" class="input-appearance" min="10" max="120" placeholder="Age">
                 </label>
             </div>
@@ -45,6 +45,86 @@
 
             <div class="form-sections">
                 <p>Would you recommend freeCodeCamp to a friend?</p>
+                <label for="" class="radio-text">
+                    <input type="radio" name="user-recomendation" value="definitely" class="radio-edit">
+                    Definitely
+                </label>
+                <label for="" class="radio-text">
+                    <input type="radio" name="user-recomendation" value="maybe" class="radio-edit">
+                    Maybe
+                </label>
+                <label for="" class="radio-text">
+                    <input type="radio" name="user-recomendation" value="notsure" class="radio-edit">
+                    Not sure
+                </label>
+            </div>
+
+            <div class="form-sections">
+                <p>What is your favorite feature of freeCodeCamp?</p>
+                <select name="role" id="dropdown" class="input-appearance">
+                    <option disabled="" selected="" value="" class="option-typo">Select an option</option>
+                    <option value="challenges" class="option-typo">Challenges</option>
+                    <option value="projecst" class="option-typo">Projects</option>
+                    <option value="community" class="option-typo">Community</option>
+                    <option value="openSource" class="option-typo">Open Source</option>
+                </select>
+            </div>
+
+            <div class="form-sections">
+                <p>What would you like to see improved?<span>(Check all that apply)</span></p>
+                <label for="" class="checkbox-text">
+                    <input type="checkbox" name="user-prefer" value="front-end-projects" class="checkbox-edit">
+                    Front-end Projects
+                </label>
+                <label for="" class="checkbox-text">
+                    <input type="checkbox" name="user-prefer" value="back-end-projects" class="checkbox-edit">
+                    Back-end Projects
+                </label>
+                <label for="" class="checkbox-text">
+                    <input type="checkbox" name="user-prefer" value="data-visualization" class="checkbox-edit">
+                    Data Visualization
+                </label>
+                <label for="" class="checkbox-text">
+                    <input type="checkbox" name="user-prefer" value="challenges" class="checkbox-edit">
+                    Challenges
+                </label>
+                <label for="" class="checkbox-text">
+                    <input type="checkbox" name="user-prefer" value="open-source-community" class="checkbox-edit">
+                    Open Source Community
+                </label>
+                <label for="" class="checkbox-text">
+                    <input type="checkbox" name="user-prefer" value="gitter-help-rooms" class="checkbox-edit">
+                    Gitter help rooms
+                </label>
+                <label for="" class="checkbox-text">
+                    <input type="checkbox" name="user-prefer" value="videos" class="checkbox-edit">
+                    Videos
+                </label>
+                <label for="" class="checkbox-text">
+                    <input type="checkbox" name="user-prefer" value="city-meetups" class="checkbox-edit">
+                    City Meetups
+                </label>
+                <label for="" class="checkbox-text">
+                    <input type="checkbox" name="user-prefer" value="wiki" class="checkbox-edit">
+                    Wiki
+                </label>
+                <label for="" class="checkbox-text">
+                    <input type="checkbox" name="user-prefer" value="forum" class="checkbox-edit">
+                    Forum
+                </label>
+                <label for="" class="checkbox-text">
+                    <input type="checkbox" name="user-prefer" value="additional-courses" class="checkbox-edit">
+                    Additional Courses
+                </label>
+            </div>
+
+            <div class="form-sections">
+                <p>Any comments or suggestions?</p>
+                <textarea id="comments" class="textarea-appearance" name="" id="" cols="30" rows="10"></textarea>
+            </div>
+
+            <div class="form-sections">
+                <button id="submit" class="submit-appearance" type="submit">Submit</button>
             </div>
             
         </form>
